@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "compile": "npx truffle compile && npx typechain --target=truffle-v5 './build/contracts/*.json'",
+    "migrate": "npx truffle migrate",
+    "test": "npx truffle test"
+  },
+  "devDependencies": {
+    "@truffle/resolver": "^9.0.23",
+    "@typechain/truffle-v5": "^8.0.2",
+    "@types/bn.js": "^5.1.1",
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.0",
+    "@types/web3": "^1.2.2",
+    "truffle": "^5.6.6",
+    "truffle-typings": "^1.0.8",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^4.9.3"
+  }
+}

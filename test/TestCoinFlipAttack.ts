@@ -1,0 +1,4 @@
+contract("", (accounts) => {
+  it("", async () => {
+  });
+});
